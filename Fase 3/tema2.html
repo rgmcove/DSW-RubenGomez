@@ -1,0 +1,184 @@
+<!DOCTYPE HTML>
+<HTML lang="es-co">
+
+<HEAD>
+    <META charset="utf-8" />
+    <title> Fase 3 | Diseño de Sitios Web </title>
+    <link href="../static/css/columns.css" rel="stylesheet" />
+    <link href="../static/css/heads.css" rel="stylesheet" />
+    <link href="../static/css/navbar.css" rel="stylesheet" />
+    <link href="../static/fontawesome-free/css/all.css" rel="stylesheet" />
+</HEAD>
+
+<BODY>
+
+    <aside class="main-sidebar ">
+        <div class="sidebar">
+            <nav class="mt-2">
+                <ul class="nav nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">
+                            <p>
+                                Inicio
+                                <span class="badge badge-info right"></span>
+                            </p>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <p>
+                                Temas
+                                <i class="fas fa-angle-down right"></i>
+                            </p>
+                        </a>
+                        <ul class="nav nav-treeview">
+                            <li class="nav-item">
+                                <a href="tema1.html" class="nav-link">
+                                    <p>Tema 1</p>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="tema2.html" class="nav-link">
+                                    <p>Tema 2</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <p>
+                                Recursos Digitales
+                                <i class="fas fa-angle-down right"></i>
+                            </p>
+                        </a>
+                        <ul class="nav nav-treeview">
+                            <li class="nav-item">
+                                <a href="recurso1.html" class="nav-link">
+                                    <p>Recurso 1</p>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="recurso2.html" class="nav-link">
+                                    <p>Recurso 2</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <p>
+                                Aprendizaje
+                                <i class="fas fa-angle-down right"></i>
+                            </p>
+                        </a>
+                        <ul class="nav nav-treeview">
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">
+                                    <p>Actividad 1</p>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">
+                                    <p>Actividad 2</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="autor.html" class="nav-link">
+                            <p> Autor </p>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+        </div>
+
+    </aside>
+
+    <section class="contentBodyF3">
+        <section class="ContentF3">
+            <h2 class="text_primary text-center">CSS Grid</h2>
+
+            <article class="col-md-11 ml-5">
+                <p>
+                    CSS Grid Layout es un sistema de rejilla en 2 dimensiones, creado dentro del lenguaje CSS.
+                    Es un estándar, lo que quiere decir que no necesitas nada para que el navegador lo entienda.
+                    Para ponerlo en práctica necesitas simplemente aplicar el nuevo "display: grid" y comenzar a
+                    usar sus potentes propiedades y valores CSS. Con ello podrás controlar todos los aspectos
+                    imaginables de la rejilla, obteniendo prácticamente todo lo que se te ocurra de una manera
+                    cómoda.
+                </p>
+                <p>
+                    CSS Grid Layout es un modelo de maquetación CSS en base a una rejilla, algo que podría no
+                    parecer tan novedoso, si tenemos en cuenta que diversas librerías de CSS lo habían intentado
+                    ya. Sistemas como 960 Grid System fueron pioneros en crear una base de código CSS para que
+                    los diseñadores pudieran posicionar los elementos en una distribución de filas y columnas.
+                    El propio Bootstrap incluye entre otras cosas un sistema de rejilla.
+                </p>
+                <p>
+                    Al final, estos sistemas funcionaron pero tenían varios problemas. Entre ellos destacamos:
+                </p>
+                <p>
+                <ul>
+                    <li>Tenías que agregar peso a tu CSS, con código de cientos de clases que muchas veces ni
+                        siquiera llegabas a usar.</li>
+                    <li>Tenías que aplicar constantemente clases con nombres raros, que ensuciaban tu HTML de
+                        manera
+                        muy agresiva.</li>
+                    <li> Creaba código de muy difícil mantenimiento, haciendo que el proyecto estuviera ligado
+                        de
+                        manera muy directa con un sistema propietario. Cuando el desarrollador tenía que asumir
+                        el
+                        código de una web creado con un sistema de rejilla, hacía muy difícil su adaptación.
+                    </li>
+                </ul>
+                </p>
+                <p>
+                    La diferencia ahora es que Grid Layout es un estándar y que no necesitas recargar tu página
+                    y tu código CSS para aplicarlo. No necesitas ensuciar tu HTML, ya que todo se aplica desde
+                    el CSS, por medio de nuevos atributos, valores y unidades. Además, un sitio con Grid Layout
+                    resulta sencillo de mantener y de aplicar otras herramientas de CSS3 como las mediaqueries.
+                    Por supuesto, es totalmente adaptable (responsive).
+                </p>
+                <p>
+            </article>
+            <article class="col-md-11 ml-5">
+                <figure class="text-center">
+                    <img src="../static/img/grid-css.png" alt="Photo" width="500px" height="300px">
+                    <figcaption style="color:gray">Tomado de: Grid CSS. https://lenguajecss.com/css/maquetacion-y-colocacion/grid-css/</figcaption>
+                </figure>
+            </article>
+            <article class="col-md-11 ml-5">
+                <h3>Referencias</h3>
+                <span>Aceves, D. (2020). Qué es CSS Grid Layout. <br />
+                    Obtenido de Desarrolloweb.com:
+                    <a
+                        href="https://desarrolloweb.com/articulos/que-es-css-grid-layout.html">https://desarrolloweb.com/articulos/que-es-css-grid-layout.html</a>
+                </span>
+                </p>
+            </article>
+
+        </section>
+        <aside class="aside-fanpage">
+            <iframe
+                src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FUniversidadUNAD%2F&tabs=timeline&width=340&height=700&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=1271075489677597"
+                width="340" height="700" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                allowfullscreen="true"
+                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+        </aside>
+    </section>
+
+    <footer>
+        <section class="col-md-12 text-center">
+            <i class="fas fa-envelope text_primary"></i> <span class="text_primary">ragomezmos@unadvirtual.edu.co</span>
+            <i class="fab fa-skype text_primary"></i> <span class="text_primary">neney.gomez</span>
+        </section>
+    </footer>
+</BODY>
+
+</HTML>
