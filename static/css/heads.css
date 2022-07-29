@@ -5,6 +5,7 @@ audio {
 
 .figure-edit{
     display: inline-block;
+    margin-left: 15%;
 }
 
 .figcaption-edit{
@@ -129,7 +130,7 @@ section {
 }
 
 a {
-    color: #007bff;
+    color: #37474f;
     text-decoration: none;
     background-color: transparent;
 }
@@ -245,7 +246,8 @@ body {
 
 /**TEXTO**/
 .text_primary {
-    color: black
+    color: black;
+    font-size: 15px;
 }
 
 .text-muted {
